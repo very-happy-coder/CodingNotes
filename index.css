@@ -13,6 +13,7 @@
 #laptop-background {
     width: 100%;
     height: 250px;
+    background: red;
 }
 .computer {
     cursor: pointer;
