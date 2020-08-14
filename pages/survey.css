@@ -1,0 +1,23 @@
+#range {
+    border-color: green;
+}
+#submit {
+    width: 90px;
+    height: 35px;
+    background: green;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    outline: none;
+    cursor: grab;
+}
+#submit:active {
+    background: lightgreen;
+    color: black;
+    cursor: grabbing;
+}
+#result {
+    color: gray;
+    margin-bottom: 25%;
+}

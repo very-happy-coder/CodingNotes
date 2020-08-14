@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Contact || Coding Notes</title>
+	<link href="../template.css" rel="stylesheet" type="text/css" />
+    <link href="pages.css" rel="stylesheet" type="text/css" />
+    <link href="contact.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header>
+		<h1 align="center"><a href="../index.html">Coding Notes</a></h1>
+
+        
+        <nav>
+            <ul>
+                <li class="nav-choice"><a href="../index.html">Home</a></li>
+                <li class="nav-choice"><a href="about.html">About</a></li>
+                <li class="nav-choice"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+	</header>
+	<main>
+		<h3>Contact</h3>
+        <hr class="hr-keyframe"/>
+        <br/>
+        <h4>Questions? Feedback? New camp(s) to add? A note you want to publish?</h4>
+        <p>Fill out the form below!</p>
+        <br/>
+        <form id="contact-form" action="mailto:dcissohappy@gmail.com">
+            <input id="name" placeholder="Name" type="text" required>
+            <input id="email" placeholder="Email" type="email" required>
+            <input id="subject" placeholder="Subject" type="text">
+            <textarea id="message" placeholder="Message" maxlength="1000" required></textarea>
+            <br/>
+            <button id="submit" type="submit">Send</button>
+        </form>
+    </main>
+    <footer>This is happily made by <a href="https://repl.it/@veryHappyCoder" target="_blank">veryHappyCoder</a></footer>
+
+    <script src="contact.js"></script>
+</body>
+</html>

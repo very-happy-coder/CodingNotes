@@ -1,0 +1,57 @@
+#name, #email, #subject, #message {
+    border: 1px solid black;
+}
+#name, #email {
+    width: 48%;
+    height: 30px;
+    outline: none;
+    padding-left: 0.75%;
+}
+#name {
+    float: left;
+}
+#subject {
+    width: 96%;
+    height: 30px;
+    outline: none;
+    padding: 1%;
+    font-family: sans-serif;
+}
+#message {
+    width: 96%;
+    height: 75px;
+    resize: none;
+    outline: none;
+    padding: 1%;
+    font-family: sans-serif;
+}
+#submit {
+    width: 90px;
+    height: 35px;
+    background: blue;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    outline: none;
+    cursor: grab;
+    margin-bottom: 25%;
+}
+#submit:active {
+    background: lightblue;
+    color: black;
+    cursor: grabbing;
+}
+#message::-webkit-input-placeholder {
+    font-family: sans-serif;
+}
+#message:-ms-input-placeholder {
+    font-family: sans-serif;
+}
+
+#message:-moz-placeholder {
+    font-family: sans-serif;
+}
+#message::-moz-placeholder {
+    font-family: sans-serif;
+}
